@@ -1,0 +1,31 @@
+
+    <!-- Static navbar -->
+              <nav class="navbar navbar-custom navbar-fixed-top">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand " href="#"><img class="c-logo"src="assets/udeer/images/logo_horizone.jpg"></a>
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-center c-menu-center">
+                     {% for (var i=0, l= modules.length; i < l; i++){
+                      var item = modules[i];
+                      if(item.type==="module" && !item.blocked) { %}
+                               <li class="c-menue-item" id="{{ item.module_name }}"><a href="#dash"><img src="{{item.attach_image}}"><p>{{ item._label}}</p></a></li>
+                        {%   } } %}
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                      
+                      <li class="c-user"><img class="img-circle" src="assets/udeer/images/default_user.png" >
+                        <p>{{user.name}}</p>
+                        <button type="button" class="btn btn-danger">Log Out</button>
+                      </li>
+                    </ul>
+                  </div><!--/.nav-collapse -->
+                </div><!--/.container-fluid -->
+              </nav>

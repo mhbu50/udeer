@@ -1,0 +1,22 @@
+{
+ "content": null, 
+ "creation": "2016-09-04 16:25:41.845604", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "idx": 0, 
+ "modified": "2016-09-04 16:25:41.845604", 
+ "modified_by": "Administrator", 
+ "module": "Udeer", 
+ "name": "table", 
+ "owner": "Administrator", 
+ "page_name": "table", 
+ "roles": [
+  {
+   "role": "All"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "title": "table"
+}

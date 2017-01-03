@@ -1,0 +1,10 @@
+<ul>
+  
+    {% for sec in  data  %}
+    {% for  subsec in sec.items %}
+    <a href="#dash"><li>{{subsec.label}} {% if !subsec.label %}{{subsec.name}} {% endif %}</li></a>
+    {%  endfor %}
+    {%  endfor %}
+            
+                    
+</ul>

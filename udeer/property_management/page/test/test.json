@@ -1,0 +1,23 @@
+{
+ "content": null, 
+ "creation": "2016-08-20 15:37:22.762378", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "icon": "testt", 
+ "idx": 0, 
+ "modified": "2016-08-22 15:20:53.200224", 
+ "modified_by": "Administrator", 
+ "module": "Property Management", 
+ "name": "test", 
+ "owner": "Administrator", 
+ "page_name": "test", 
+ "roles": [
+  {
+   "role": "Administrator"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "title": "test"
+}

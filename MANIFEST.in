@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include udeer *.css
+recursive-include udeer *.csv
+recursive-include udeer *.html
+recursive-include udeer *.ico
+recursive-include udeer *.js
+recursive-include udeer *.json
+recursive-include udeer *.md
+recursive-include udeer *.png
+recursive-include udeer *.py
+recursive-include udeer *.svg
+recursive-include udeer *.txt
+recursive-exclude udeer *.pyc

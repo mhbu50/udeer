@@ -1,0 +1,13 @@
+
+
+<div>
+  {% for sec in  data  %}
+  <span class="sa">  {{sec.label}}</span>
+    <ul>
+      {% for  subsec in sec.items %}
+        
+  <li>  {{subsec.label}} {% if !subsec.label %}{{subsec.name}} {% endif %}</li>
+  {%  endfor %}
+   </ul>
+  {%  endfor %}
+</div>

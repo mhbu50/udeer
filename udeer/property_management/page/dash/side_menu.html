@@ -1,0 +1,8 @@
+<ul>
+  
+    {% for (var i=0, l= side_menu_items.length; i < l; i++) { 
+    var item = side_menu_items[i]; %}
+            <a href="{{ side_menu_items[i].url }}"><li>{{ side_menu_items[i].content }}</li></a>
+     {% } %}
+                    
+</ul>
