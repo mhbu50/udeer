@@ -1,0 +1,53 @@
+{
+ "custom_fields": [], 
+ "doctype": "Payment Entry", 
+ "property_setters": [
+  {
+   "_assign": null, 
+   "_comments": null, 
+   "_liked_by": null, 
+   "_user_tags": null, 
+   "creation": "2017-01-22 14:34:56.310411", 
+   "default_value": null, 
+   "doc_type": "Payment Entry", 
+   "docstatus": 0, 
+   "doctype_or_field": "DocField", 
+   "field_name": "party_type", 
+   "idx": 0, 
+   "modified": "2017-01-22 14:34:56.310411", 
+   "modified_by": "Administrator", 
+   "name": "Payment Entry-party_type-options", 
+   "owner": "Administrator", 
+   "parent": null, 
+   "parentfield": null, 
+   "parenttype": null, 
+   "property": "options", 
+   "property_type": "Text", 
+   "value": "Customer\nSupplier\nproperty_owner"
+  }, 
+  {
+   "_assign": null, 
+   "_comments": null, 
+   "_liked_by": null, 
+   "_user_tags": null, 
+   "creation": "2017-01-22 14:34:56.289285", 
+   "default_value": null, 
+   "doc_type": "Payment Entry", 
+   "docstatus": 0, 
+   "doctype_or_field": "DocType", 
+   "field_name": null, 
+   "idx": 0, 
+   "modified": "2017-01-22 14:34:56.289285", 
+   "modified_by": "Administrator", 
+   "name": "Payment Entry-read_only_onload", 
+   "owner": "Administrator", 
+   "parent": null, 
+   "parentfield": null, 
+   "parenttype": null, 
+   "property": "read_only_onload", 
+   "property_type": "Check", 
+   "value": null
+  }
+ ], 
+ "sync_on_migrate": 1
+}
