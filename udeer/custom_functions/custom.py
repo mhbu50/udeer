@@ -66,41 +66,75 @@ def add_cumpany_balance(docname,amount):
   return result
 
 @frappe.whitelist(allow_guest=True)
-def get_user():
-  role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
+def get_current_user():
   user_id = frappe.auth.get_logged_user()
   user = frappe.get_doc('User',user_id)
   return user  
 
 @frappe.whitelist(allow_guest=True)
-def update_user(data):
+def update_user(name,data):
   data = json.loads(data)
-  role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
-  user_id = frappe.auth.get_logged_user()
-  user = frappe.get_doc('User',user_id)
+  name = json.loads(name)
+  user = frappe.get_doc('User',name)
   user.mobile_number = data['mobile_number']
   user.first_name = data['first_name']
+  if (data.user_roles):
+    user.roles = data.user_roles
   user.save()
   return user  
 
 @frappe.whitelist(allow_guest=True)
-def update_company(data):
+def update_company(name,data):
   data = json.loads(data)
-  role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
-  user = get_user()
-  company = frappe.get_doc('Company',user.company)
-  company.logo = data['logo']
+  name = json.loads(name)
+  company = frappe.get_doc('Company',name)
+  if(company.logo):
+    company.logo = data['logo']
+  company.longitude = data['longitude']
+  company.latitude = data['latitude']
   company.save()
   return company  
 
 @frappe.whitelist(allow_guest=True)
 def get_company():
-  role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
   user = get_user()
   company = frappe.get_doc('Company',user.company)
   return company  
-
 @frappe.whitelist(allow_guest=True)
+def get_current_company():
+  user = get_user()
+  company = frappe.get_doc('Company',user.company)
+  return company    
+
+@frappe.whitelist()
 def test():
   return "result"
+
+@frappe.whitelist()
+def get_units_by_customer(customer):
+  leases = frappe.get_list('lease',fields=["*"],filters = [['renter','=',customer]])
+  units = []
+  for lease in leases:
+    units.append(frappe.get_doc('property unit',lease.property_unit))
+  return units
+
+@frappe.whitelist()
+def get_property_by_unit(unit_name):
+  unit = frappe.get_doc('property unit',unit_name)
+  property_doc = frappe.get_doc('property',unit.property)
+  return property_doc
+ 
+  
+
+@frappe.whitelist()
+def delete_role(doctype,d):
+  print '////////////////////////////'
+  admin = frappe.get_doc('User','Administrator')
+  for role in admin.roles:
+    print role.role
+    if(role.role == doctype.name):
+      admin.roles.remove(role)
+      print 'remove'
+      admin.save()
+
 

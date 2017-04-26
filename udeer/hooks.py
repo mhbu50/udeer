@@ -76,13 +76,11 @@ app_include_js = "assets/js/udeer.js"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Role": {
+		"on_trash": "udeer.custom_functions.custom.delete_role"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
