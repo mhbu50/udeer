@@ -27,6 +27,7 @@ udeer/config/desktop.py
 udeer/config/docs.py
 udeer/custom_functions/__init__.py
 udeer/custom_functions/custom.py
+udeer/custom_functions/mobile_api.py
 udeer/fixtures/custom_field.json
 udeer/lease_management/__init__.py
 udeer/lease_management/doctype/__init__.py
@@ -277,6 +278,9 @@ udeer/property_management/page/test/js/bootstrap.min.js
 udeer/property_management/page/test/js/jquery.js
 udeer/property_management/page/test/js/main.js
 udeer/property_management/page/test/js/wow.min.js
+udeer/property_management/report/__init__.py
+udeer/property_management/report/doctype/__init__.py
+udeer/property_management/report/doctype/doctype.json
 udeer/public/build.json
 udeer/public/css/animate.min.css
 udeer/public/css/bootstrap-rtl.css
@@ -342,7 +346,6 @@ udeer/templates/emails/standard.html
 udeer/templates/generators/__init__.py
 udeer/templates/pages/__init__.py
 udeer/udeer/__init__.py
-udeer/udeer/custom/payment_entry.json
 udeer/udeer/page/__init__.py
 udeer/udeer/page/dashboard/__init__.py
 udeer/udeer/page/dashboard/dashboard.html
