@@ -1,4 +1,3 @@
-
 from __future__ import unicode_literals
 import frappe
 import frappe.utils
@@ -69,7 +68,7 @@ def add_cumpany_balance(docname,amount):
 def get_current_user():
   user_id = frappe.auth.get_logged_user()
   user = frappe.get_doc('User',user_id)
-  return user  
+  return user
 
 @frappe.whitelist(allow_guest=True)
 def update_user(name,data):
@@ -97,19 +96,21 @@ def update_company(name,data):
 
 @frappe.whitelist(allow_guest=True)
 def get_company():
-  user = get_user()
+  user = get_current_user()
   company = frappe.get_doc('Company',user.company)
-  return company  
+  return company
+
 @frappe.whitelist(allow_guest=True)
 def get_current_company():
-  user = get_user()
+  user = get_current_user()
   company = frappe.get_doc('Company',user.company)
   return company    
 
 @frappe.whitelist()
-def test():
-  return "result"
-
+def test(doc_name):
+  doc_name = json.loads(doc_name)
+  doctype = frappe.get_doc('DocType',doc_name)
+  return doctype.fields
 @frappe.whitelist()
 def get_units_by_customer(customer):
   leases = frappe.get_list('lease',fields=["*"],filters = [['renter','=',customer]])
@@ -118,11 +119,30 @@ def get_units_by_customer(customer):
     units.append(frappe.get_doc('property unit',lease.property_unit))
   return units
 
+@frappe.whitelist(allow_guest=True)
+def get_m_issues_by_customer(customer):
+  leases = frappe.get_list('lease',fields=["*"], filters = [['renter','=', customer ]])
+  issues = frappe.get_list('Issue',fields=["*"], filters = [['property_unit','in', dic_to_array__property_unit(leases)],['type','=','maintenance']])
+  return issues  
+
 @frappe.whitelist()
 def get_property_by_unit(unit_name):
   unit = frappe.get_doc('property unit',unit_name)
   property_doc = frappe.get_doc('property',unit.property)
   return property_doc
+
+def dic_to_array(dics):
+  array = []
+  for dic in dics:
+    array.append(dic.name)
+  return array
+
+def dic_to_array__property_unit(dics):
+  array = []
+  for dic in dics:
+    array.append(dic.property_unit)
+  return array  
+
  
   
 
