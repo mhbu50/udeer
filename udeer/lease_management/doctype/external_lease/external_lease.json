@@ -3,7 +3,11 @@
  "allow_guest_to_view": 0, 
  "allow_import": 0, 
  "allow_rename": 0, 
+<<<<<<< HEAD
  "autoname": " EL.#####", 
+=======
+ "autoname": "EL.#####", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
  "beta": 0, 
  "creation": "2017-02-14 14:00:36.159643", 
  "custom": 0, 
@@ -238,7 +242,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "seller_id_expire", 
+=======
+   "label": "Seller ID Expire", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -268,7 +276,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "Buyer Name", 
+=======
+   "label": "Buyer  Name", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -298,7 +310,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "Buyer Mobile", 
+=======
+   "label": "Buyer Mobile Number", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -328,7 +344,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "buyer_address", 
+=======
+   "label": "Buyer Address", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -358,7 +378,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "buyer_citizenship", 
+=======
+   "label": "Buyer Citizenship", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -388,7 +412,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "buyer_id_type", 
+=======
+   "label": "Buyer ID Type", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -418,7 +446,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "buyer_id_number", 
+=======
+   "label": "Buyer ID Number", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -448,7 +480,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "buyer_id_place", 
+=======
+   "label": "Buyer ID Place", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -478,7 +514,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "buyer_id_expire", 
+=======
+   "label": "Buyer ID Expire", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -508,7 +548,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "property", 
+=======
+   "label": "Property", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -538,7 +582,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "property_type", 
+=======
+   "label": "Property Type", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -568,7 +616,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "first_witness_name", 
+=======
+   "label": "First witness Name", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -598,7 +650,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "secound_witness_name", 
+=======
+   "label": "Second Witness Name", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -628,7 +684,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "lease_period", 
+=======
+   "label": "Lease Period", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -658,7 +718,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "lease_start_day", 
+=======
+   "label": "Lease Start Day", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -688,7 +752,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "payment_method", 
+=======
+   "label": "Payment Method", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -718,7 +786,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "water_meter_number", 
+=======
+   "label": "Water Meter Number", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -748,7 +820,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "electricity_meter_number", 
+=======
+   "label": "Electricity Meter Number", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -778,7 +854,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "rent_price", 
+=======
+   "label": "Rent Price", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -808,7 +888,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "property_address", 
+=======
+   "label": "Property Address", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -838,7 +922,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "notes", 
+=======
+   "label": "Notes", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "permlevel": 0, 
@@ -868,7 +956,11 @@
    "in_global_search": 0, 
    "in_list_view": 0, 
    "in_standard_filter": 0, 
+<<<<<<< HEAD
    "label": "terms", 
+=======
+   "label": "Terms", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
    "length": 0, 
    "no_copy": 0, 
    "options": "", 
@@ -926,7 +1018,11 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
+<<<<<<< HEAD
  "modified": "2017-06-12 23:47:07.869197", 
+=======
+ "modified": "2017-06-09 00:35:01.037898", 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
  "modified_by": "Administrator", 
  "module": "Lease Management", 
  "name": "external_lease", 
@@ -954,10 +1050,14 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
+<<<<<<< HEAD
  "show_name_in_global_search": 0, 
+=======
+ "show_name_in_global_search": 1, 
+>>>>>>> 6d9d78d920e02d56feab84c35a4358d30f32d789
  "sort_field": "modified", 
  "sort_order": "DESC", 
  "track_changes": 0, 

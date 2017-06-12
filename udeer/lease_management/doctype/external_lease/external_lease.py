@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class external_lease(Document):
+class ExternalLease(Document):
 	pass
