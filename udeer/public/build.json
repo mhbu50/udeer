@@ -1,7 +1,6 @@
 {
 
 	"css/udeer.css": [
-		"public/css/udeerbase.css",
 		"public/css/animate.min.css",
 		"public/css/font-awesome.min.css",
 		"public/css/bootstrap-switch.min.css",
@@ -14,6 +13,6 @@
 		"public/js/fullcalendar.min.js"
 
 	]
-	
+
 
 }
