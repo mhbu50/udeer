@@ -2,6 +2,5 @@ Udeer
 Property Management
 Lease Management
 Attachment
-Task Management
 Shared Management
 Complain Management

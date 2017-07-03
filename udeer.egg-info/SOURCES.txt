@@ -325,13 +325,6 @@ udeer/shared_management/doctype/c_note/c_note.js
 udeer/shared_management/doctype/c_note/c_note.json
 udeer/shared_management/doctype/c_note/c_note.py
 udeer/shared_management/doctype/c_note/test_c_note.py
-udeer/task_management/__init__.py
-udeer/task_management/doctype/__init__.py
-udeer/task_management/doctype/task/__init__.py
-udeer/task_management/doctype/task/task.js
-udeer/task_management/doctype/task/task.json
-udeer/task_management/doctype/task/task.py
-udeer/task_management/doctype/task/test_task.py
 udeer/templates/__init__.py
 udeer/templates/emails/.txt
 udeer/templates/emails/__init__.py
