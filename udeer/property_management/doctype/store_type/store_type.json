@@ -84,10 +84,10 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-06-09 00:13:40.189261", 
+ "modified": "2017-07-03 14:31:31.861731", 
  "modified_by": "Administrator", 
  "module": "Property Management", 
- "name": "store_type", 
+ "name": "Store Type", 
  "name_case": "", 
  "owner": "Administrator", 
  "permissions": [
@@ -112,7 +112,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "show_name_in_global_search": 0, 

@@ -85,10 +85,10 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-06-09 00:12:27.661005", 
+ "modified": "2017-07-03 14:56:45.570745", 
  "modified_by": "Administrator", 
  "module": "Property Management", 
- "name": "property_type", 
+ "name": "Property Type", 
  "name_case": "", 
  "owner": "Administrator", 
  "permissions": [
@@ -113,7 +113,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "show_name_in_global_search": 0, 
