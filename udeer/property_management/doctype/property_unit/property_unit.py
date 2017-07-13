@@ -6,17 +6,15 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class propertyunit(Document):
-	
+class PropertyUnit(Document):
+
 	def before_insert(self):
-	
+
 		self.parent = self.property
 		self.parentfield = 'property_units'
 		self.parenttype = 'property'
 
-	def on_update(self):	
+	def on_update(self):
 		self.parent = self.property
 		self.parentfield = 'property_units'
 		self.parenttype = 'property'
-
-
