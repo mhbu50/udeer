@@ -6,5 +6,6 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class leasepattern(Document):
-	pass
+
+class LeasePattern(Document):
+    pass

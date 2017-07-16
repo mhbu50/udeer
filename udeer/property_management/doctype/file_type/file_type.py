@@ -6,5 +6,6 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class file_type(Document):
-	pass
+
+class FileType(Document):
+    pass

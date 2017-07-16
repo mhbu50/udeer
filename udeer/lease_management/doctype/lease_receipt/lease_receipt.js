@@ -1,7 +1,7 @@
 // Copyright (c) 2016, moosa and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('lease_receipt', {
+frappe.ui.form.on('Lease Receipt', {
 	refresh: function(frm) {
 
 	}

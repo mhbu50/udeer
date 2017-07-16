@@ -6,5 +6,6 @@ from __future__ import unicode_literals
 import frappe
 from frappe.model.document import Document
 
-class property_unit_type(Document):
-	pass
+
+class PropertyUnitType(Document):
+    pass

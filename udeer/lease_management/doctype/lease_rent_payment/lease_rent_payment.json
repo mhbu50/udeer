@@ -296,10 +296,10 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-07-04 13:19:17.552179", 
+ "modified": "2017-07-16 22:17:18.159473", 
  "modified_by": "Administrator", 
  "module": "Lease Management", 
- "name": "Lease rent payment", 
+ "name": "Lease Rent Payment", 
  "name_case": "", 
  "owner": "Administrator", 
  "permissions": [

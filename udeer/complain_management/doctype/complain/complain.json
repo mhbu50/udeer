@@ -237,7 +237,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-07-03 13:58:33.290332", 
+ "modified": "2017-07-16 22:00:44.983437", 
  "modified_by": "Administrator", 
  "module": "Complain Management", 
  "name": "complain", 
@@ -285,7 +285,7 @@
    "write": 1
   }
  ], 
- "quick_entry": 1, 
+ "quick_entry": 0, 
  "read_only": 0, 
  "read_only_onload": 0, 
  "show_name_in_global_search": 0, 

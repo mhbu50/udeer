@@ -1,7 +1,7 @@
 // Copyright (c) 2016, moosa and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('expenses', {
+frappe.ui.form.on('Expenses', {
 	refresh: function(frm) {
 
 	}

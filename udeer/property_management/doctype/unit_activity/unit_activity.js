@@ -1,7 +1,7 @@
 // Copyright (c) 2016, moosa and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('unit activity', {
+frappe.ui.form.on('Unit Activity', {
 	refresh: function(frm) {
 
 	}

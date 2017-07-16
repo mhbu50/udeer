@@ -4,7 +4,4 @@ Lease Management
 Attachment
 Shared Management
 Complain Management
-<<<<<<< HEAD
 Sales and Shares
-=======
->>>>>>> 3c45b0cc8060f00dbe7f65a048219c1e91e235e0

@@ -926,10 +926,10 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-07-04 12:43:19.020872", 
+ "modified": "2017-07-16 22:04:43.707764", 
  "modified_by": "Administrator", 
  "module": "Lease Management", 
- "name": "external_lease", 
+ "name": "External Lease", 
  "name_case": "", 
  "owner": "Administrator", 
  "permissions": [
