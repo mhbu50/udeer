@@ -57,33 +57,33 @@ def custom_re(data):
 
 @frappe.whitelist(allow_guest=True)
 def late_payment(lease_id):
-    lease = frappe.get_doc("lease",lease_id)
+    lease = frappe.get_doc("Lease",lease_id)
     mos_period = daterange(date.today(),lease.lease_starting_date )
-    rents = frappe.get_all("Lease rent payment", fields=["from_date", "to_date"],filters = {"lease": ("like", lease_id)})
+    rents = frappe.get_all("Lease Rent Payment", fields=["from_date", "to_date"],filters = {"lease": ("like", lease_id)})
     for r in rents:
       period = daterange(r.from_date,r.to_date)
       for p in period:
         mos_period.remove(p)
-      
+
     return mos_period
 
 @frappe.whitelist(allow_guest=True)
 def late_payment_p(p_id):
-    p_u = frappe.get_all("property unit", fields=["name"], filters = {"property": ("like", p_id)})
+    p_u = frappe.get_all("Property Unit", fields=["name"], filters = {"property": ("like", p_id)})
     pu_ids=[]
     for p in p_u:
       pu_ids.append(p["name"])
-    mos_period = {}  
-    leases = frappe.get_all("lease", fields=["name","lease_starting_date"], filters = {"property_unit": ("in", pu_ids)})
+    mos_period = {}
+    leases = frappe.get_all("Lease", fields=["name","lease_starting_date"], filters = {"property_unit": ("in", pu_ids)})
     for lease in leases:
       mos_period[lease.name] = daterange(date.today(),lease.lease_starting_date )
-      rents = frappe.get_all("Lease rent payment", fields=["from_date", "to_date"], filters = {"lease": ("like", lease.name)})
+      rents = frappe.get_all("Lease Rent Payment", fields=["from_date", "to_date"], filters = {"lease": ("like", lease.name)})
       for r in rents:
         period = daterange(r.from_date,r.to_date)
         for p in period:
           mos_period[lease.name].remove(p)
-    
-      
+
+
     return mos_period
 
 
@@ -98,7 +98,7 @@ def daterange( start_date, end_date ):
     return c_list
 
 @frappe.whitelist(allow_guest=True)
-def add_cumpany_balance(docname,amount):
+def add_company_balance(docname,amount):
   role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
   company = frappe.get_doc("Company",docname)
   company.balance += int(amount)
@@ -109,4 +109,3 @@ def add_cumpany_balance(docname,amount):
 @frappe.whitelist(allow_guest=True)
 def test():
   return "result"
-

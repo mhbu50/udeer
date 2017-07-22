@@ -1,7 +1,6 @@
 Udeer
 Property Management
 Lease Management
-Attachment
 Shared Management
 Complain Management
 Sales and Shares

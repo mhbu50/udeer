@@ -56,7 +56,7 @@ def registration(data):
 
 
 @frappe.whitelist(allow_guest=True)
-def add_cumpany_balance(docname, amount):
+def add_company_balance(docname, amount):
     role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
     company = frappe.get_doc("Company", docname)
     company.balance += int(amount)
@@ -122,10 +122,10 @@ def test(doc_name):
 @frappe.whitelist()
 def get_units_by_customer(customer):
     leases = frappe.get_list(
-        'lease', fields=["*"], filters=[['renter', '=', customer]])
+        'Lease', fields=["*"], filters=[['renter', '=', customer]])
     units = []
     for lease in leases:
-        units.append(frappe.get_doc('property unit', lease.property_unit))
+        units.append(frappe.get_doc('Property Unit', lease.property_unit))
     return units
 
 
