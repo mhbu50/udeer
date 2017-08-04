@@ -8,5 +8,6 @@ import unittest
 
 # test_records = frappe.get_test_records('store_type')
 
-class Teststore_type(unittest.TestCase):
-	pass
+
+class TestStoreType(unittest.TestCase):
+    pass

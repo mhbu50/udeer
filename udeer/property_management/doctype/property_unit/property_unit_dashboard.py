@@ -4,12 +4,12 @@ from frappe import _
 def get_data():
     return {
         'fieldname':
-        'property',
+        'property_unit',
         'transactions': [{
-            'label': _('Property & Unit'),
-            'items': ['Property Unit', 'Property Expense']
-        }, {
             'label': _('Leases'),
             'items': ['Lease']
+        }, {
+            'label': _('Payment'),
+            'items': ['Unit Expense']
         }]
     }
