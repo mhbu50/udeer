@@ -18,16 +18,15 @@ fixtures = ["Custom Field"]
 
 # include js, css files in header of desk.html
 app_include_css = "assets/css/udeer.css"
-
-
 app_include_js = "assets/js/udeer.js"
-
-
 
 # include js, css files in header of web template
 # web_include_css = "/assets/udeer/css/udeer.css"
 # web_include_js = "/assets/udeer/js/udeer.js"
-
+website_context = {
+    "favicon": "/assets/udeer/images/favicon.ico",
+    "splash_image": "/assets/udeer/images/Udeer_splash.png"
+}
 # Home Pages
 # ----------
 
@@ -77,9 +76,9 @@ app_include_js = "assets/js/udeer.js"
 # Hook on document methods and events
 
 doc_events = {
-	"Role": {
-		"on_trash": "udeer.custom_functions.custom.delete_role"
-	}
+    "Role": {
+        "on_trash": "udeer.custom_functions.custom.delete_role"
+    }
 }
 
 # Scheduled Tasks
@@ -114,4 +113,3 @@ doc_events = {
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "udeer.event.get_events"
 # }
-

@@ -1,18 +1,11 @@
 {
-
-	"css/udeer.css": [
-		"public/css/animate.min.css",
-		"public/css/font-awesome.min.css",
-		"public/css/bootstrap-switch.min.css",
-		"public/css/fullcalendar.css"
-	],
-	"js/udeer.js": [
-		"public/js/wow.min.js",
-		"public/js/udeerbase.js",
-		"public/js/bootstrap-switch.min.js",
-		"public/js/fullcalendar.min.js"
-
-	]
-
-
+  "css/udeer.css": [
+    "public/css/animate.min.css",
+    "public/css/font-awesome.min.css",
+    "public/css/bootstrap-switch.min.css",
+    "public/css/fullcalendar.css"
+  ],
+  "js/udeer.js": [
+    "public/js/conf.js"
+  ]
 }
