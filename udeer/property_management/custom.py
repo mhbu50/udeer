@@ -13,7 +13,7 @@ from frappe.model.document import Document
 
 no_cache = True
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist()
 def custom_re(data):
     data = json.loads(data)
     role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
@@ -55,7 +55,7 @@ def custom_re(data):
     return "sss"
 
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist()
 def late_payment(lease_id):
     lease = frappe.get_doc("Lease",lease_id)
     mos_period = daterange(date.today(),lease.lease_starting_date )
@@ -67,7 +67,7 @@ def late_payment(lease_id):
 
     return mos_period
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist()
 def late_payment_p(p_id):
     p_u = frappe.get_all("Property Unit", fields=["name"], filters = {"property": ("like", p_id)})
     pu_ids=[]
@@ -97,7 +97,7 @@ def daterange( start_date, end_date ):
             c_list.append(start_date - timedelta( n ))
     return c_list
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist()
 def add_company_balance(docname,amount):
   role = frappe.get_doc({"doctype": "DocPerm", "role": "Administrator"})
   company = frappe.get_doc("Company",docname)
