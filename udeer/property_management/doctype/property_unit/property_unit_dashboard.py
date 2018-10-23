@@ -9,7 +9,7 @@ def get_data():
             'label': _('Leases'),
             'items': ['Lease']
         }, {
-            'label': _('Payment'),
-            'items': ['Unit Expense']
+            'label': _('Expenses'),
+            'items': ["Property Expense"]
         }]
     }
