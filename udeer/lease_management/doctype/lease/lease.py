@@ -15,8 +15,11 @@ class Lease(Document):
         for i in range(self.installment_number,0,-1):
             new_installment = frappe.new_doc("Lease Installment")
             new_installment.lease = self.name
-            new_installment.status = "Not Paid"
+            new_installment.status = "Not Active"
             new_installment.number = i
             new_installment.due_date = add_months(self.lease_starting_date, i)
             new_installment.amount = installment
+            new_installment.property = self.property
+            new_installment.property_unit = self.property_unit
+            new_installment.property_owner = self.property_owner
             new_installment.insert()

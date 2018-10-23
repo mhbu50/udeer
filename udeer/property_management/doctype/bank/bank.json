@@ -85,7 +85,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
- "modified": "2017-07-17 15:03:17.806809", 
+ "modified": "2018-10-23 21:41:57.726755", 
  "modified_by": "Administrator", 
  "module": "Property Management", 
  "name": "Bank", 
@@ -119,6 +119,7 @@
  "show_name_in_global_search": 0, 
  "sort_field": "modified", 
  "sort_order": "DESC", 
+ "title_field": "bank_name", 
  "track_changes": 0, 
  "track_seen": 0
 }
