@@ -74,6 +74,7 @@ udeer/lease_management/doctype/lease_installment/__init__.py
 udeer/lease_management/doctype/lease_installment/lease_installment.js
 udeer/lease_management/doctype/lease_installment/lease_installment.json
 udeer/lease_management/doctype/lease_installment/lease_installment.py
+udeer/lease_management/doctype/lease_installment/lease_installment_list.js
 udeer/lease_management/doctype/lease_installment/test_lease_installment.js
 udeer/lease_management/doctype/lease_installment/test_lease_installment.py
 udeer/lease_management/doctype/lease_notes/lease_notes.js
@@ -81,6 +82,7 @@ udeer/lease_management/doctype/lease_pattern/__init__.py
 udeer/lease_management/doctype/lease_pattern/lease_pattern.js
 udeer/lease_management/doctype/lease_pattern/lease_pattern.json
 udeer/lease_management/doctype/lease_pattern/lease_pattern.py
+udeer/lease_management/doctype/lease_pattern/test_lease_pattern.js
 udeer/lease_management/doctype/lease_pattern/test_lease_pattern.py
 udeer/lease_management/doctype/lease_receipt/__init__.py
 udeer/lease_management/doctype/lease_receipt/lease_receipt.js
@@ -108,6 +110,7 @@ udeer/lease_management/doctype/sell_agreement/__init__.py
 udeer/lease_management/doctype/sell_agreement/sell_agreement.js
 udeer/lease_management/doctype/sell_agreement/sell_agreement.json
 udeer/lease_management/doctype/sell_agreement/sell_agreement.py
+udeer/lease_management/doctype/sell_agreement/test_sell_agreement.js
 udeer/lease_management/doctype/sell_agreement/test_sell_agreement.py
 udeer/lease_management/doctype/term/__init__.py
 udeer/lease_management/doctype/term/term.js
@@ -127,6 +130,7 @@ udeer/property_management/doctype/bank/__init__.py
 udeer/property_management/doctype/bank/bank.js
 udeer/property_management/doctype/bank/bank.json
 udeer/property_management/doctype/bank/bank.py
+udeer/property_management/doctype/bank/test_bank.js
 udeer/property_management/doctype/bank/test_bank.py
 udeer/property_management/doctype/cash_receipt/__init__.py
 udeer/property_management/doctype/cash_receipt/cash_receipt.js
@@ -165,11 +169,13 @@ udeer/property_management/doctype/property_document/__init__.py
 udeer/property_management/doctype/property_document/property_document.js
 udeer/property_management/doctype/property_document/property_document.json
 udeer/property_management/doctype/property_document/property_document.py
+udeer/property_management/doctype/property_document/test_property_document.js
 udeer/property_management/doctype/property_document/test_property_document.py
 udeer/property_management/doctype/property_expense/__init__.py
 udeer/property_management/doctype/property_expense/property_expense.js
 udeer/property_management/doctype/property_expense/property_expense.json
 udeer/property_management/doctype/property_expense/property_expense.py
+udeer/property_management/doctype/property_expense/test_property_expense.js
 udeer/property_management/doctype/property_expense/test_property_expense.py
 udeer/property_management/doctype/property_image/__init__.py
 udeer/property_management/doctype/property_image/property_image.js
@@ -180,6 +186,7 @@ udeer/property_management/doctype/property_management_contract/__init__.py
 udeer/property_management/doctype/property_management_contract/property_management_contract.js
 udeer/property_management/doctype/property_management_contract/property_management_contract.json
 udeer/property_management/doctype/property_management_contract/property_management_contract.py
+udeer/property_management/doctype/property_management_contract/test_property_management_contract.js
 udeer/property_management/doctype/property_management_contract/test_property_management_contract.py
 udeer/property_management/doctype/property_owner/__init__.py
 udeer/property_management/doctype/property_owner/property_owner.js
@@ -191,6 +198,7 @@ udeer/property_management/doctype/property_status/__init__.py
 udeer/property_management/doctype/property_status/property_status.js
 udeer/property_management/doctype/property_status/property_status.json
 udeer/property_management/doctype/property_status/property_status.py
+udeer/property_management/doctype/property_status/test_property_status.js
 udeer/property_management/doctype/property_status/test_property_status.py
 udeer/property_management/doctype/property_type/__init__.py
 udeer/property_management/doctype/property_type/property_type.js
@@ -205,12 +213,6 @@ udeer/property_management/doctype/property_unit/property_unit.py
 udeer/property_management/doctype/property_unit/property_unit_dashboard.py
 udeer/property_management/doctype/property_unit/test_property_unit.js
 udeer/property_management/doctype/property_unit/test_property_unit.py
-udeer/property_management/doctype/property_unit_activity/__init__.py
-udeer/property_management/doctype/property_unit_activity/property_unit_activity.js
-udeer/property_management/doctype/property_unit_activity/property_unit_activity.json
-udeer/property_management/doctype/property_unit_activity/property_unit_activity.py
-udeer/property_management/doctype/property_unit_activity/test_property_unit_activity.js
-udeer/property_management/doctype/property_unit_activity/test_property_unit_activity.py
 udeer/property_management/doctype/property_unit_type/__init__.py
 udeer/property_management/doctype/property_unit_type/property_unit_type.js
 udeer/property_management/doctype/property_unit_type/property_unit_type.json
@@ -221,18 +223,13 @@ udeer/property_management/doctype/store_type/__init__.py
 udeer/property_management/doctype/store_type/store_type.js
 udeer/property_management/doctype/store_type/store_type.json
 udeer/property_management/doctype/store_type/store_type.py
+udeer/property_management/doctype/store_type/test_store_type.js
 udeer/property_management/doctype/store_type/test_store_type.py
 udeer/property_management/doctype/unit_activity/__init__.py
 udeer/property_management/doctype/unit_activity/test_unit_activity.py
 udeer/property_management/doctype/unit_activity/unit_activity.js
 udeer/property_management/doctype/unit_activity/unit_activity.json
 udeer/property_management/doctype/unit_activity/unit_activity.py
-udeer/property_management/doctype/unit_expense/__init__.py
-udeer/property_management/doctype/unit_expense/test_unit_expense.js
-udeer/property_management/doctype/unit_expense/test_unit_expense.py
-udeer/property_management/doctype/unit_expense/unit_expense.js
-udeer/property_management/doctype/unit_expense/unit_expense.json
-udeer/property_management/doctype/unit_expense/unit_expense.py
 udeer/property_management/page/__init__.py
 udeer/property_management/page/dash/__init__.py
 udeer/property_management/page/dash/content.html
@@ -345,6 +342,7 @@ udeer/udeer/doctype/city/__init__.py
 udeer/udeer/doctype/city/city.js
 udeer/udeer/doctype/city/city.json
 udeer/udeer/doctype/city/city.py
+udeer/udeer/doctype/city/test_city.js
 udeer/udeer/doctype/city/test_city.py
 udeer/udeer/doctype/neighborhood/__init__.py
 udeer/udeer/doctype/neighborhood/neighborhood.js
