@@ -8,47 +8,48 @@ def get_data():
 			"module_name": "Udeer",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
-			"type": "module",
+			"category": "Modules",
 			"label": _("Udeer")
 		},
 		{
 			"module_name": "Property Management",
-			"color": "grey",
+			"category": "Modules",
+			"label": _("Property Management"),
+			"color": "#3498db",
 			"icon": "octicon octicon-file-directory",
-			"type": "module",
-			"hidden": 0,
-			"label": _("Property Management")
+			"type": "module",			
+			"description": "Property Management, maintainance and tools."
 		},
 		{
 			"module_name": "Lease Management",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
+			"category": "Modules",
 			"type": "module",
-			"hidden": 0,
 			"label": _("Lease Management")
 		},
 		{
 			"module_name": "Shared Management",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
+			"category": "Modules",
 			"type": "module",
-			"hidden": 0,
 			"label": _("Shared Management")
 		},
 		{
 			"module_name": "Complain Management",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
+			"category": "Modules",
 			"type": "module",
-			"hidden": 0,
 			"label": _("Complain Management")
 		},
 		{
 			"module_name": "Sales and Shares",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
+			"category": "Modules",
 			"type": "module",
-			"hidden": 0,
 			"label": _("Sales and Shares")
 		}
 

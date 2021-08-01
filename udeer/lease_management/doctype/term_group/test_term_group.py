@@ -6,7 +6,7 @@
 import frappe
 import unittest
 
-# test_records = frappe.get_test_records('term_group')
+# test_records = frappe.get_test_records('Term Group')
 
-class Testterm_group(unittest.TestCase):
+class TestTermGroup(unittest.TestCase):
 	pass

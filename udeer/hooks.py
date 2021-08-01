@@ -8,7 +8,7 @@ app_publisher = "moosa"
 app_description = "udeer app"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "moosabukhamsin@gmail.com"
+app_email = "info@accuratesystems.com.sa"
 app_license = "MIT"
 
 fixtures = ["Custom Field"]
@@ -75,11 +75,11 @@ website_context = {
 # ---------------
 # Hook on document methods and events
 
-doc_events = {
-    "Role": {
-        "on_trash": "udeer.custom_functions.custom.delete_role"
-    }
-}
+# doc_events = {
+#     "Role": {
+#         "on_trash": "udeer.custom_functions.custom.delete_role"
+#     }
+# }
 
 # Scheduled Tasks
 # ---------------
