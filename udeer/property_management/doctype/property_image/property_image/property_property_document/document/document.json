@@ -1,0 +1,65 @@
+{
+ "creation": "2016-08-18 14:33:25.917139",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "image",
+  "property",
+  "property_unit",
+  "type"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Table",
+   "label": "Title",
+   "options": "File Type"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "property",
+   "fieldtype": "Link",
+   "label": "Property",
+   "options": "Property"
+  },
+  {
+   "fieldname": "property_unit",
+   "fieldtype": "Link",
+   "label": "Property unit",
+   "options": "Property Unit"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Property\nProperty unit"
+  }
+ ],
+ "modified": "2021-08-02 02:11:58.734221",
+ "modified_by": "Administrator",
+ "module": "Property Management",
+ "name": "Document",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

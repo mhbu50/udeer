@@ -1,0 +1,248 @@
+{
+ "autoname": "SQ.#####",
+ "creation": "2017-02-14 12:34:03.726518",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "seller_name",
+  "seller_mobile_number",
+  "seller_address",
+  "seller_citizenship",
+  "seller_id_type",
+  "seller_id_number",
+  "seller_id_place",
+  "seller_id_expire",
+  "buyer_name",
+  "buyer_mobile_number",
+  "buyer_address",
+  "buyer_citizenship",
+  "buyer_id_type",
+  "buyer_id_number",
+  "buyer_id_place",
+  "buyer_id_expire",
+  "property",
+  "property_type",
+  "property_number",
+  "property_city",
+  "property_country",
+  "property_area",
+  "property_scheme_number",
+  "property_instrument_number",
+  "property_instrument_date",
+  "property_instrument_city",
+  "property_sale_amount",
+  "received_amount",
+  "remaining_amount",
+  "payment_type",
+  "remaining_pay_date",
+  "first_witness_name",
+  "second_witness_name",
+  "section_break_34",
+  "terms",
+  "company"
+ ],
+ "fields": [
+  {
+   "fieldname": "seller_name",
+   "fieldtype": "Data",
+   "label": "Seller Name"
+  },
+  {
+   "fieldname": "seller_mobile_number",
+   "fieldtype": "Data",
+   "label": "Seller Mobile Number"
+  },
+  {
+   "fieldname": "seller_address",
+   "fieldtype": "Data",
+   "label": "Seller Address"
+  },
+  {
+   "fieldname": "seller_citizenship",
+   "fieldtype": "Data",
+   "label": "Seller Nationality"
+  },
+  {
+   "fieldname": "seller_id_type",
+   "fieldtype": "Data",
+   "label": "Seller ID Type"
+  },
+  {
+   "fieldname": "seller_id_number",
+   "fieldtype": "Data",
+   "label": "Seller ID Number"
+  },
+  {
+   "fieldname": "seller_id_place",
+   "fieldtype": "Data",
+   "label": "Seller ID Place"
+  },
+  {
+   "fieldname": "seller_id_expire",
+   "fieldtype": "Data",
+   "label": "Seller ID Expire"
+  },
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "label": "Buyer Name"
+  },
+  {
+   "fieldname": "buyer_mobile_number",
+   "fieldtype": "Data",
+   "label": "Buyer Mobile Number"
+  },
+  {
+   "fieldname": "buyer_address",
+   "fieldtype": "Data",
+   "label": "Buyer Address"
+  },
+  {
+   "fieldname": "buyer_citizenship",
+   "fieldtype": "Data",
+   "label": "Buyer Nationality"
+  },
+  {
+   "fieldname": "buyer_id_type",
+   "fieldtype": "Data",
+   "label": "Buyer ID Type"
+  },
+  {
+   "fieldname": "buyer_id_number",
+   "fieldtype": "Data",
+   "label": "Buyer ID Number"
+  },
+  {
+   "fieldname": "buyer_id_place",
+   "fieldtype": "Data",
+   "label": "Buyer ID Place"
+  },
+  {
+   "fieldname": "buyer_id_expire",
+   "fieldtype": "Data",
+   "label": "Buyer ID Expire"
+  },
+  {
+   "fieldname": "property",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Data",
+   "label": "Property Type"
+  },
+  {
+   "fieldname": "property_number",
+   "fieldtype": "Data",
+   "label": "Property Number"
+  },
+  {
+   "fieldname": "property_city",
+   "fieldtype": "Data",
+   "label": "Property City"
+  },
+  {
+   "fieldname": "property_country",
+   "fieldtype": "Data",
+   "label": "Property Country"
+  },
+  {
+   "fieldname": "property_area",
+   "fieldtype": "Data",
+   "label": "Property Area"
+  },
+  {
+   "fieldname": "property_scheme_number",
+   "fieldtype": "Data",
+   "label": "Property Scheme Number"
+  },
+  {
+   "fieldname": "property_instrument_number",
+   "fieldtype": "Data",
+   "label": "Property Instrument Number"
+  },
+  {
+   "fieldname": "property_instrument_date",
+   "fieldtype": "Date",
+   "label": "Property Instrument Date"
+  },
+  {
+   "fieldname": "property_instrument_city",
+   "fieldtype": "Data",
+   "label": "Property Instrument City"
+  },
+  {
+   "fieldname": "property_sale_amount",
+   "fieldtype": "Data",
+   "label": "Property Sale Amount"
+  },
+  {
+   "fieldname": "received_amount",
+   "fieldtype": "Data",
+   "label": "Received Amount"
+  },
+  {
+   "fieldname": "remaining_amount",
+   "fieldtype": "Data",
+   "label": "Remaining Amount"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Data",
+   "label": "Payment Type"
+  },
+  {
+   "fieldname": "remaining_pay_date",
+   "fieldtype": "Date",
+   "label": "Remaining Pay Date"
+  },
+  {
+   "fieldname": "first_witness_name",
+   "fieldtype": "Data",
+   "label": "First Witness Name"
+  },
+  {
+   "fieldname": "second_witness_name",
+   "fieldtype": "Data",
+   "label": "Second Witness Name"
+  },
+  {
+   "fieldname": "section_break_34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Text Editor",
+   "label": "Terms",
+   "options": "Term"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  }
+ ],
+ "modified": "2021-08-02 03:33:33.930629",
+ "modified_by": "Administrator",
+ "module": "Property Management",
+ "name": "Sell Agreement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

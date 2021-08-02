@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2015, moosa and contributors
+# Copyright (c) 2021, moosa and contributors
 # For license information, please see license.txt
 
-
-import frappe
+from __future__ import unicode_literals
+# import frappe
 from frappe.model.document import Document
 
-
 class PropertyDocument(Document):
-    pass
+	pass

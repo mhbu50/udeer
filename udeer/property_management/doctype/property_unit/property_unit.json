@@ -87,7 +87,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Unit Type",
-   "options": "Property Unit Type"
+   "options": "Unit Type"
   },
   {
    "fieldname": "unit_description",
@@ -211,7 +211,7 @@
    "read_only": 1
   }
  ],
- "modified": "2021-08-01 02:32:31.426472",
+ "modified": "2021-08-02 03:04:10.903175",
  "modified_by": "Administrator",
  "module": "Property Management",
  "name": "Property Unit",

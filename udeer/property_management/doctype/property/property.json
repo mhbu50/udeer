@@ -44,7 +44,11 @@
   "instrument_date",
   "section_break_36",
   "property_units_label",
-  "property_units"
+  "property_units",
+  "property_image_sec_section",
+  "property_image",
+  "property_document_sec_section",
+  "property_document"
  ],
  "fields": [
   {
@@ -254,9 +258,33 @@
    "label": "Property Units",
    "options": "Property Unit",
    "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "property_image_sec_section",
+   "fieldtype": "Section Break",
+   "label": "Property Image"
+  },
+  {
+   "fieldname": "property_image",
+   "fieldtype": "Table",
+   "label": "Property Image",
+   "options": "Property Image"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "property_document_sec_section",
+   "fieldtype": "Section Break",
+   "label": "Property Document"
+  },
+  {
+   "fieldname": "property_document",
+   "fieldtype": "Table",
+   "label": "Property Document",
+   "options": "Property Document"
   }
  ],
- "modified": "2021-08-01 02:30:07.614590",
+ "modified": "2021-08-02 02:25:35.814124",
  "modified_by": "Administrator",
  "module": "Property Management",
  "name": "Property",

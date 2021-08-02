@@ -1,8 +1,8 @@
-// Copyright (c) 2016, moosa and contributors
+// Copyright (c) 2021, moosa and contributors
 // For license information, please see license.txt
 
 frappe.ui.form.on('Property Document', {
-	refresh: function(frm) {
+	// refresh: function(frm) {
 
-	}
+	// }
 });

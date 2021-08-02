@@ -11,5 +11,8 @@ def get_data():
         }, {
             'label': _('Expenses'),
             'items': ["Property Expense"]
+        },{
+            'label': _('Maintenance'),
+            'items': ["Maintenance Schedule","Maintenance Visit"]
         }]
     }
