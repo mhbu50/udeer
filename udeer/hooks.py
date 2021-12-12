@@ -23,10 +23,10 @@ app_include_js = "assets/js/udeer.js"
 # include js, css files in header of web template
 # web_include_css = "/assets/udeer/css/udeer.css"
 # web_include_js = "/assets/udeer/js/udeer.js"
-website_context = {
-    "favicon": "/assets/udeer/images/favicon.ico",
-    "splash_image": "/assets/udeer/images/Udeer_splash.png"
-}
+# website_context = {
+#     "favicon": "/assets/udeer/images/favicon.ico",
+#     "splash_image": "/assets/udeer/images/Udeer_splash.png"
+# }
 # Home Pages
 # ----------
 
