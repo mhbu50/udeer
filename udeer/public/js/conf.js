@@ -10,8 +10,8 @@ $(document).bind('toolbar_setup', function() {
 	// frappe.help_feedback_link = '<p><a class="text-muted" \
 	// 	href="https://smartehis.com#contact">Feedback</a></p>'
 
-	$('.navbar-home').html('<img class="erpnext-icon" src="'+
-			frappe.urllib.get_base_url()+'/assets/udeer/images/logo.png" />');
+// 	$('.navbar-home').html('<img class="erpnext-icon" src="'+
+// 			frappe.urllib.get_base_url()+'/assets/udeer/images/logo.png" />');
 });
 
 // preferred modules for breadcrumbs
