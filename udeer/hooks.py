@@ -17,8 +17,8 @@ fixtures = ["Custom Field"]
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "assets/css/udeer.css"
-app_include_js = "assets/js/udeer.js"
+# app_include_css = "assets/css/udeer.css"
+# app_include_js = "assets/js/udeer.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/udeer/css/udeer.css"
