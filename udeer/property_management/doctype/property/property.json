@@ -1,4 +1,5 @@
 {
+ "actions": [],
  "autoname": "PRO.######",
  "creation": "2016-08-17 01:16:17.715184",
  "doctype": "DocType",
@@ -10,38 +11,51 @@
   "property_name",
   "property_type",
   "number_of_units",
+  "management_type",
   "column_break_5",
   "scheme_numer",
   "built_year",
-  "property_status",
   "property_owner",
+  "owner_name",
   "column_break_9",
-  "management_type",
+  "property_status",
+  "property_sale_invoice",
   "offer_type",
   "construction_date",
-  "owner_name",
+  "google_earth_url",
+  "open_location",
+  "property_plan_section",
+  "plan_type",
+  "c20_column",
+  "plan_status",
+  "column_break_22",
+  "investment_date",
+  "property_information",
+  "price",
+  "initial_investment_amount",
+  "assets_expenses_amount",
+  "current_value",
+  "column_break_6",
+  "total_area",
+  "construction_area",
+  "meter_price",
+  "average_value",
+  "column_break_34",
+  "negotiation_limit",
+  "instrument_number",
+  "instrument_date",
   "property_address",
   "country",
   "street",
   "address",
   "column_break_17",
   "city",
+  "district",
+  "property_direction",
   "image",
   "column_break_20",
-  "district",
   "water_meter_number",
   "electricity_meter_number",
-  "property_information",
-  "price",
-  "total_area",
-  "column_break_6",
-  "meter_price",
-  "construction_area",
-  "instrument_number",
-  "column_break_21",
-  "negotiation_limit",
-  "property_direction",
-  "instrument_date",
   "section_break_36",
   "property_units_label",
   "property_units",
@@ -115,6 +129,7 @@
    "options": "\nPercentage\nStatic Amount"
   },
   {
+   "depends_on": "eval:doc.property_status != \"Sold\"",
    "fieldname": "offer_type",
    "fieldtype": "Select",
    "label": "Offer Type",
@@ -166,6 +181,7 @@
   {
    "fieldname": "image",
    "fieldtype": "Attach",
+   "hidden": 1,
    "label": "Image"
   },
   {
@@ -223,10 +239,6 @@
    "label": "Instrument Number"
   },
   {
-   "fieldname": "column_break_21",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "negotiation_limit",
    "fieldtype": "Currency",
    "label": "Negotiation Limit"
@@ -254,7 +266,7 @@
   },
   {
    "fieldname": "property_units",
-   "fieldtype": "Table",
+   "fieldtype": "Link",
    "label": "Property Units",
    "options": "Property Unit",
    "read_only": 1
@@ -282,9 +294,90 @@
    "fieldtype": "Table",
    "label": "Property Document",
    "options": "Property Document"
+  },
+  {
+   "depends_on": "eval:doc.property_status == \"Sold\"",
+   "fieldname": "property_sale_invoice",
+   "fieldtype": "Link",
+   "label": "Property Sale Invoice",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "google_earth_url",
+   "fieldtype": "Data",
+   "label": "Google Earth URL"
+  },
+  {
+   "fieldname": "open_location",
+   "fieldtype": "Button",
+   "label": "Open Location"
+  },
+  {
+   "fieldname": "property_plan_section",
+   "fieldtype": "Section Break",
+   "label": "Property Plan"
+  },
+  {
+   "fieldname": "plan_type",
+   "fieldtype": "Data",
+   "label": "Plan Type"
+  },
+  {
+   "fieldname": "c20_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "plan_status",
+   "fieldtype": "Data",
+   "label": "Plan Status"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "investment_date",
+   "fieldtype": "Date",
+   "label": "Investment Date"
+  },
+  {
+   "fieldname": "initial_investment_amount",
+   "fieldtype": "Currency",
+   "label": "Initial Investment Amount"
+  },
+  {
+   "fieldname": "assets_expenses_amount",
+   "fieldtype": "Currency",
+   "label": "Assets Expenses Amount"
+  },
+  {
+   "fieldname": "current_value",
+   "fieldtype": "Currency",
+   "label": "Current Value"
+  },
+  {
+   "fieldname": "average_value",
+   "fieldtype": "Currency",
+   "label": "Average Value"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
   }
  ],
- "modified": "2021-08-02 02:25:35.814124",
+ "links": [
+  {
+   "group": "Profits",
+   "link_doctype": "Sales Invoice",
+   "link_fieldname": "property"
+  },
+  {
+   "group": "Expenses",
+   "link_doctype": "Purchase Invoice",
+   "link_fieldname": "property"
+  }
+ ],
+ "modified": "2022-02-06 18:08:21.928040",
  "modified_by": "Administrator",
  "module": "Property Management",
  "name": "Property",
