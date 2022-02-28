@@ -7,6 +7,12 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "accounting_information_section",
+  "property_company",
+  "column_break_3",
+  "property_payable_account",
+  "property_receivable_account",
+  "section_break_5",
   "property_number",
   "property_name",
   "property_type",
@@ -15,6 +21,7 @@
   "column_break_5",
   "scheme_numer",
   "built_year",
+  "property_age",
   "property_owner",
   "owner_name",
   "column_break_9",
@@ -226,7 +233,8 @@
   {
    "fieldname": "meter_price",
    "fieldtype": "Currency",
-   "label": "Meter Price"
+   "label": "Meter Price",
+   "read_only": 1
   },
   {
    "fieldname": "construction_area",
@@ -353,16 +361,56 @@
   {
    "fieldname": "current_value",
    "fieldtype": "Currency",
-   "label": "Current Value"
+   "label": "Current Value",
+   "read_only": 1
   },
   {
    "fieldname": "average_value",
    "fieldtype": "Currency",
-   "label": "Average Value"
+   "label": "Average Value",
+   "read_only": 1
   },
   {
    "fieldname": "column_break_34",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accounting_information_section",
+   "fieldtype": "Section Break",
+   "label": "Accounting Information"
+  },
+  {
+   "fieldname": "property_company",
+   "fieldtype": "Link",
+   "label": "Property Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "property_payable_account",
+   "fieldtype": "Link",
+   "label": "Property Payable Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "property_receivable_account",
+   "fieldtype": "Link",
+   "label": "Property Receivable Account",
+   "options": "Account"
+  },
+  {
+   "description": "In Years",
+   "fieldname": "property_age",
+   "fieldtype": "Read Only",
+   "label": "Property Age"
   }
  ],
  "links": [
@@ -377,7 +425,7 @@
    "link_fieldname": "property"
   }
  ],
- "modified": "2022-02-06 18:08:21.928040",
+ "modified": "2022-02-27 14:05:03.540463",
  "modified_by": "Administrator",
  "module": "Property Management",
  "name": "Property",
