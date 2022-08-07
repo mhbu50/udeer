@@ -15,7 +15,7 @@ class Lease(Document):
         monthly_rent = self.annual_rent / 12
         lease_duration = cint(self.lease_duration.split('-')[0])
         rent = monthly_rent * lease_duration
-        self.full_payment = (self.annual_water_usage + self.insuranse + rent) -  self.received_payment
+        self.full_payment = (self.annual_water + self.insuranse + rent) -  self.received_payment
 
     def after_insert(self):
         monthly_rent = self.annual_rent / 12

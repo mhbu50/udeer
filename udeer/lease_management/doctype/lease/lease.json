@@ -9,7 +9,7 @@
   "property_name",
   "date_type",
   "annual_rent",
-  "annual_water_usage",
+  "annual_water",
   "full_payment",
   "column_break_6",
   "property_unit",
@@ -61,11 +61,6 @@
    "fieldname": "full_payment",
    "fieldtype": "Float",
    "label": "Full Payment"
-  },
-  {
-   "fieldname": "annual_water_usage",
-   "fieldtype": "Float",
-   "label": "Annual Water Usage"
   },
   {
    "fieldname": "column_break_6",
@@ -152,10 +147,15 @@
    "fieldname": "insuranse",
    "fieldtype": "Float",
    "label": "Insurance"
+  },
+  {
+   "fieldname": "annual_water",
+   "fieldtype": "Float",
+   "label": "Annual Water"
   }
  ],
  "links": [],
- "modified": "2022-08-02 02:50:14.723327",
+ "modified": "2022-08-08 00:41:45.556370",
  "modified_by": "Administrator",
  "module": "Lease Management",
  "name": "Lease",
